@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us / Booking</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation-icons.css">
+  </head>
+  <body>
+
+    <!-- divs for off-canvas nav menu -->
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="mainMenu" data-off-canvas data-position="left">
+          <h3 class="text-center">Navigation</h3>
+          <ul class="menu vertical" data-drilldown>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="has-submenu is-drilldown-submenu-parent"><a href="rooms.html">Rooms</a>
+              <ul class="menu vertical">
+                <li><a href="room-01.html">Room 1</a></li>
+                <li><a href="room-02.html">Room 2</a></li>
+                <li><a href="room-03.html">Room 3</a></li>
+                <li><a href="room-04.html">Room 4</a></li>
+                <li><a href="room-05.html">Room 5</a></li>
+                <li><a href="room-06.html">Room 6</a></li>
+              </ul>
+            </li><!-- end of Rooms -->
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div><!-- .off-canvas -->
+        <div class="off-canvas-content" data-off-canvas-content>
+
+          <!-- background video & header content -->
+          <section class="promo">
+            <div id="overlay"></div>
+            <img src="assets/images/featured/contact-us.jpg" alt="about us">
+            <div class="headliner hide-for-small-only">
+              <div class="column row">
+                <h1 class="text-center">Contact Us / Booking</h1>
+              </div>
+            </div>
+            <div class="header-content">
+              <div class="row">
+                <div class="small-8 medium-4 columns">
+                  <img src="assets/images/logo.svg" alt="site logo">
+                </div>
+                <div class="small-4 medium-4 columns">
+                  <a class="menu-icon float-right" data-open="mainMenu"></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="row columns show-for-small-only">
+            <h2>Contact Us / Booking</h2>
+          </div>
+
+          <section class="content">
+            <form>
+              <div class="row">
+                <div class="large-6 columns large-centered">
+                  <div class="row">
+                    <div class="medium-12 columns">
+                      <label for="name">Name
+                        <input type="text" placeholder="Your Name" name="name">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="medium-6 columns">
+                      <label for="email">Email
+                        <input type="email" placeholder="Your Email" name="email">
+                      </label>
+                    </div>
+                    <div class="medium-6 columns">
+                      <label for="city">City
+                        <input type="text" placeholder="Your City" name="city">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="medium-6 columns">
+                      <label>Number of People
+                        <select>
+                          <option value="1">1</option>
+                          <option value="2" selected>2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="more">more</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="medium-6 columns">
+                      <label for="date">Arrival Date
+                        <input type="date" name="date">
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="medium-6 columns">
+                      <legend>Extra Bed?</legend>
+                      <input type="radio" name="extra-bed" value="yes" id="yes" required>
+                      <label for="yes">Yes</label>
+                      <input type="radio" name="extra-bed" value="no" id="no">
+                      <label for="no">No</label>
+                    </div>
+                  </div>
+
+                  <div class="row column">
+                    <button type="submit" class="button" value="submit">
+                      <span class="show-for-sr">Submit</span>
+                      <span aria-hidden="true">
+                        <i class="fi-mail"></i>
+                      </span>
+                      Submit
+                    </button>
+                    <button class="button reset" type="reset" value="reset">Reset</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <!-- Footer Section -->
+          <footer>
+            <div class="row">
+              <nav class="large-5 columns">
+                <ul class="vertical menu medium-horizontal">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="rooms.html">Rooms</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </nav>
+              <div class="contact-information large-3 columns">
+                <ul class="no-bullet vertical">
+                  <li><i class="fi-marker"></i> 842 State Street East New Albany, IN 47150</li>
+                  <li><i class="fi-telephone"></i> +1-202-555-0145</li>
+                  <li><i class="fi-mail"></i> contact@hotel&spa.com</li>
+                </ul>
+              </div>
+              <div class="about-us large-4 columns">
+                <h4>About Us</h4>
+                <p>Etiam mauris leo, vulputate a euismod ut, tincidunt ac nisi. Mauris nec convallis diam, vel varius augue. Cras faucibus mauris in nibh convallis aliquet.</p>
+                <ul class="menu social align-right">
+                  <li>
+                    <a href="http://www.twitter.com">
+                      <i class="fi-social-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.facebook.com">
+                      <i class="fi-social-facebook"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="text-center copyright">&copy; All Rights Reserved Hotel &amp; Spa 2018</p>
+          </footer>
+
+        </div><!-- .off-canvas-content -->
+      </div><!-- .off-canvas-wrapper-inner -->
+    </div><!-- .off-canvas-wrapper -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
