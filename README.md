@@ -1,4 +1,4 @@
-### NOTE: In the production version of this site I have copies all js files to the js folder and discarded all unnecessary folders and files.
+### NOTE: In the distributed version of this site I have copied all js files to the js folder and discarded all unnecessary folders and files.
 
 ---
 
